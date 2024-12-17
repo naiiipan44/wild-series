@@ -27,7 +27,7 @@ const programs = [
 
 // Declare the action
 
-const browse: RequestHandler = (req, res) => {
+const browse: RequestHandler = async (req, res) => {
   res.json(programs);
 };
 
